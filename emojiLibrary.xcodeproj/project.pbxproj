@@ -14,6 +14,7 @@
 		F359E9B61DB66D74000062B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F359E9B41DB66D74000062B2 /* LaunchScreen.storyboard */; };
 		F359E9C11DB66D74000062B2 /* emojiLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359E9C01DB66D74000062B2 /* emojiLibraryTests.swift */; };
 		F359E9CC1DB66D74000062B2 /* emojiLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359E9CB1DB66D74000062B2 /* emojiLibraryUITests.swift */; };
+		F359E9DA1DB6E926000062B2 /* DefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359E9D91DB6E926000062B2 /* DefViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F359E9C71DB66D74000062B2 /* emojiLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojiLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F359E9CB1DB66D74000062B2 /* emojiLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiLibraryUITests.swift; sourceTree = "<group>"; };
 		F359E9CD1DB66D74000062B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F359E9D91DB6E926000062B2 /* DefViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F359E9AB1DB66D74000062B2 /* AppDelegate.swift */,
 				F359E9AD1DB66D74000062B2 /* ViewController.swift */,
+				F359E9D91DB6E926000062B2 /* DefViewController.swift */,
 				F359E9AF1DB66D74000062B2 /* Main.storyboard */,
 				F359E9B21DB66D74000062B2 /* Assets.xcassets */,
 				F359E9B41DB66D74000062B2 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F359E9DA1DB6E926000062B2 /* DefViewController.swift in Sources */,
 				F359E9AE1DB66D74000062B2 /* ViewController.swift in Sources */,
 				F359E9AC1DB66D74000062B2 /* AppDelegate.swift in Sources */,
 			);
