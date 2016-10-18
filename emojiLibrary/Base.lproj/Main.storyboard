@@ -53,6 +53,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OQ-sN-bW9">
+                                <accessibility key="accessibilityConfiguration" label="lblEmoji"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="200"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -71,6 +72,10 @@
                             <constraint firstItem="gn5-1F-dak" firstAttribute="top" secondItem="7OQ-sN-bW9" secondAttribute="bottom" constant="50" id="sls-2O-0Qm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblEmoji" destination="7OQ-sN-bW9" id="CwA-TJ-mbX"/>
+                        <outlet property="txtDef" destination="gn5-1F-dak" id="NZE-bI-DqB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N1l-3p-GpW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
