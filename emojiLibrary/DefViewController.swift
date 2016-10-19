@@ -10,36 +10,21 @@ import UIKit
 
 class DefViewController: UIViewController {
     
-    var emoji = ""
+    var emoji = Emoji()
     @IBOutlet weak var txtDef: UILabel!
     @IBOutlet weak var lblEmoji: UILabel!
-    
+    @IBOutlet weak var txtBirth: UILabel!
+    @IBOutlet weak var txtCat: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        lblEmoji.text = emoji
-        if emoji == "🐹"{
-            txtDef.text = "Hamster"
-        }
-        if emoji == "👑"{
-            txtDef.text = "Crown"
-        }
-        if emoji == "🎅"{
-            txtDef.text = "Santa"
-        }
-        if emoji == "🐗"{
-            txtDef.text = "Boar's Head"
-        }
-        if emoji == "😂"{
-            txtDef.text = "Laughing So Hard I'm Crying!"
-        }
-        if emoji == "😎"{
-            txtDef.text = "Sunglasses Dude"
-        }
-        if emoji == "👮"{
-            txtDef.text = "Cop"
-        }
+        
+        lblEmoji.text = emoji.strEmoji
+        txtDef.text = emoji.def
+        txtCat.text = emoji.cat
+        txtBirth.text = "BirthYear: \(emoji.birth)"
+       
 
     }
     
