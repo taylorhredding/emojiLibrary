@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func makeEmojiArray() -> [Emoji]{
-       let emoji1 = Emoji()
+        let emoji1 = Emoji()
         emoji1.strEmoji = "😂"
         emoji1.def = "Laughing So Hard I'm Crying"
         emoji1.cat = "Smiley"
